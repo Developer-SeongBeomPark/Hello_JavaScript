@@ -40,3 +40,27 @@ str.length<br>
 str1.concat(str2)<br>
 더하기(+) 연산자 사용<br>
 str1+str2<br>
+
+
+## String 다루기
+
+#### 특정 위치의 문자열 알아내기
+.charAt 함수 이용<br>
+첫 문자 : str.charAt(0)<br>
+마지막 문자 : str.charAt(str.length-1)<br>
+대괄호([]) 사용<br>
+첫 문자 : str[0]<br>
+마지막 문자 : str[str.length-1]<br>
+#### 부분문자열 구하기
+문자열의 연속된 일부분을 구하는 함수<br>
+
+.substring(pos1, pos2) : pos1 에서 pos2까지의 부분 문자열 반환<br>
+pos2 생략시 pos1에서부터 마지막 까지의 문자열 반환<br>
+substr(pos, length) : pos에서 length길이 만큼의 부분 문자열 반환<br>
+length 생략시, pos에서 마지막까지의 문자열 반환<br>
+pos 가 음수인 경우, str.length - pos 로 동작<br>
+
+#### 문자열 검색하기
+indexOf(str)<br>
+lastIndexOf(str)<br>
+
