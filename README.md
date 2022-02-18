@@ -28,4 +28,15 @@ number, string, boolean의 단순 자료형보다 더 복잡한 자료를 표현
 
 #### null
 개발자가 명시적으로 아무것도 없는 비어있는 상태를 나타낼 때 사용<br>
-typeof의 결과는 object이며 값은 null
+typeof의 결과는 object이며 값은 null<br>
+
+## String 이어 붙이기
+#### 문자열 길이 알아내기
+문자열의 .length 속성을 이용<br>
+str.length<br>
+
+#### 문자열 붙이기
+.concat 함수 사용<br>
+str1.concat(str2)<br>
+더하기(+) 연산자 사용<br>
+str1+str2<br>
